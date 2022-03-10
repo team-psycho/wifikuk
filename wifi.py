@@ -56,17 +56,12 @@ def displayAvailableNetworks():
 # display available netwroks
 displayAvailableNetworks()
 try:
-    pass_file = open("password.txt", "r")
+    pass_file = open("password2.txt", "r")
     print("File Found")
 except:
     print("No File Found")
 
 api = "https://www.google.com/"
-# try:
-#     requests.get(api)
-#     print("Found")
-# except:
-#     print("Not Found")
 
 # input wifi name and password
 name = input("Name of Wi-Fi: ")
